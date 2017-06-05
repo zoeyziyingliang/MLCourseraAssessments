@@ -1,0 +1,10 @@
+%tested code%
+
+
+data = load('ex1data1.txt') 
+X = data(:, 1); y = data(:, 2)
+m = length(y)
+figure
+plot(X,y,'rx','MarkerSize',10)
+xlabel('population of city')
+ylabel('revenue in $')
